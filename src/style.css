@@ -1,0 +1,31 @@
+:root {
+  --branding-color: #FA4A0C; 
+  --secondary-color: #252B42;
+}
+
+nav ul {
+  margin: 50px 40px;
+}
+nav li {
+  display: inline;
+  margin-left: 94px;
+  padding: 10px;
+  list-style: none;
+}
+nav a {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover, nav li.active a {
+  color: var(--branding-color);
+}
+nav .logo {
+  margin: 25px 70px;
+  padding: 0 20px;
+  width: 200px;
+}
