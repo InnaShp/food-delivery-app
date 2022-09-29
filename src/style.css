@@ -1,8 +1,13 @@
 :root {
   --branding-color: #FA4A0C; 
   --secondary-color: #252B42;
+  --default-font-family: 'Montserrat', sans-serif;
+  --heading-font-family: 'Poppins', sans-serif;
 }
 
+body {
+  font-family: var(--default-font-family);
+}
 nav ul {
   margin: 50px 40px;
 }
@@ -29,3 +34,60 @@ nav .logo {
   padding: 0 20px;
   width: 200px;
 }
+
+
+.hero {
+  color: #ffffff;
+  text-align: center;
+  background-image: url("../images/pop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 620px;
+  height: 620px;
+}
+.text-content {
+  padding: 70px 250px 50px;
+}
+.hero h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  margin: 17px 0 27px;
+}
+.hero h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 0;
+}
+.hero .btn-branding, .hero .btn-branding-outline {
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 16px 58px;
+  transition: all 150ms ease-in-out;
+}
+.hero .btn-branding {
+  background: var(--branding-color);
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  margin-right: 34px; 
+}
+.hero .btn-branding:hover {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+}
+.hero .btn-branding-outline {
+  border: 1px solid #FFFFFF;
+}
+.hero .btn-branding-outline:hover {
+  border: 1px solid #FFFFFF;
+  color: var(--branding-color);
+} 
+
