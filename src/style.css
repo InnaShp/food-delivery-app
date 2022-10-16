@@ -35,17 +35,16 @@ nav .logo {
   width: 200px;
 }
 
-
 .hero {
   color: #ffffff;
   text-align: center;
-  background-image: url("../images/pop.png");
+  background-image: url("../images/hero-background.png");
   background-repeat: no-repeat;
   background-size: 100% 620px;
   height: 620px;
 }
 .text-content {
-  padding: 70px 250px 50px;
+  padding: 70px 0 50px;
 }
 .hero h3 {
   font-size: 24px;
@@ -90,4 +89,28 @@ nav .logo {
   border: 1px solid #FFFFFF;
   color: var(--branding-color);
 } 
+.image-box {
+  display: block;
+}
+.phone-image-1 {
+  height: 880px;
+  position: relative;
+  bottom: 290px;
+  left: 10px;
+  z-index: 2;
+}
+.phone-image-2 {
+  height: 530px;
+  position: relative;
+  bottom: 240px;
+  right: 240px;
+  z-index: 1;
+}
 
+
+
+.content-box hr {
+  border: 3px solid #E4E4E4;
+  margin: 0 auto;
+  width: 884px;
+}
