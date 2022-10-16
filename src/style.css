@@ -35,6 +35,7 @@ nav .logo {
   width: 200px;
 }
 
+
 .hero {
   color: #ffffff;
   text-align: center;
@@ -64,6 +65,9 @@ nav .logo {
   line-height: 38px;
   margin: 0;
 }
+.hero .btn-box {
+  margin-left: 120px;
+}
 .hero .btn-branding, .hero .btn-branding-outline {
   border-radius: 30px;
   color: #FFFFFF;
@@ -89,28 +93,65 @@ nav .logo {
   border: 1px solid #FFFFFF;
   color: var(--branding-color);
 } 
-.image-box {
-  display: block;
-}
+
 .phone-image-1 {
-  height: 880px;
+  height: 725px;
   position: relative;
-  bottom: 290px;
-  left: 10px;
+  top: 20px;
+  right: 75px;
   z-index: 2;
 }
 .phone-image-2 {
   height: 530px;
   position: relative;
-  bottom: 240px;
-  right: 240px;
+  left: 135px;
+  bottom: 60px;
   z-index: 1;
+  margin-bottom: 70px;
 }
 
 
 
-.content-box hr {
-  border: 3px solid #E4E4E4;
+.container hr {
+  border: 2px solid #bcbbbb;
   margin: 0 auto;
   width: 884px;
+  
+}
+.container h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 72px;
+  
+}
+
+.container .app-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container h3 {
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: var(--secondary-color);
+}
+.container h4 {
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--branding-color);
+}
+.container p {
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #737373;
 }
