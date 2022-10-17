@@ -230,3 +230,107 @@ footer small {
   line-height: 18px;
   margin: 55px 45px;
 }
+
+
+@media (max-width: 1135px) {
+  nav .logo {
+    margin: 0;
+  }
+  nav ul {
+    margin: 30px 20px;
+  }
+  nav li {
+    margin: 0;
+  }
+  .hero .text-content {
+    padding: 50px 0 30px;
+  }
+  .hero {
+  background-size: 150% 420px;
+  height: 420px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero h3, .hero h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .hero .btn-box {
+    margin: 0;
+  }
+  .hero .btn-branding, .hero .btn-branding-outline {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 30px;
+  }
+  .hero .phone-image-1 {
+    height: 600px;
+  }
+  .phone-image-2 {
+    height: 430px;
+    left: 98px;
+    margin: 0;
+  }
+
+
+  .container hr {
+    width: 500px;
+  }
+  .container h2 {
+    font-size: 34px;
+  }
+  .container h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .container h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .container p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+
+  .hero-end {
+    height: 460px;
+  }
+  .hero-end h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-end h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px ;
+  }
+  .hero-end .btn-branding {
+    padding: 10px 31px;
+  }
+  .hero-end .btn-branding-outline {
+    padding: 10px 41px;
+  }
+  
+
+  footer {
+    margin: 0;
+    padding: 0 40px;
+  }
+  footer .logo {
+    height: 80px;
+    margin-left: 30px;
+  }
+  footer ul {
+    margin: 0;
+  }
+  footer li {
+    font-size: 22px;
+  }
+  footer small {
+    line-height: 18px;
+    margin: 35px 25px;
+  }
+}
