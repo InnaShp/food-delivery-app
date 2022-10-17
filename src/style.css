@@ -93,7 +93,6 @@ nav .logo {
   border: 1px solid #FFFFFF;
   color: var(--branding-color);
 } 
-
 .hero .phone-image-1 {
   height: 725px;
   position: relative;
@@ -106,8 +105,8 @@ nav .logo {
   position: relative;
   left: 135px;
   bottom: 60px;
-  z-index: 1;
   margin-bottom: 70px;
+  z-index: 1;
 }
 
 
@@ -116,7 +115,6 @@ nav .logo {
   border: 2px solid #bcbbbb;
   margin: 0 auto;
   width: 884px;
-  
 }
 .container h2 {
   font-family: var(--heading-font-family);
@@ -125,40 +123,38 @@ nav .logo {
   line-height: 36px;
   text-align: center;
   margin-top: 72px;
-  
 }
-
 .container .app-description {
+  font-family: var(--default-font-family);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .container h3 {
-  font-family: var(--default-font-family);
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   color: var(--secondary-color);
 }
 .container h4 {
-  font-family: var(--default-font-family);
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: var(--branding-color);
 }
 .container p {
-  font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
   color: #737373;
 }
 
+
+
 .hero-end {
   color: #ffffff;
   text-align: center;
+  font-family: var(--default-font-family);
   background-image: url("../images/hero-background-end.png");
   background-repeat: no-repeat;
   background-size: 100% 620px;
@@ -167,33 +163,31 @@ nav .logo {
   flex-direction: column;
   justify-content: center;
 }
-
 .hero-end h2 {
-  font-family: var(--default-font-family);
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   margin-bottom: 20px;
 }
 .hero-end h4 {
-  font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
   margin-bottom: 60px;
 }
-.hero-end .btn-branding {
-  background: var(--branding-color);
-  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+.hero-end .btn-branding,.hero-end .btn-branding-outline {
   border-radius: 10px;
-  padding: 18px 31px;
-  font-family: var(--default-font-family);
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
-  color: #FFFFFF;
-  margin-right: 10px;
   transition: all 150ms ease-in-out;
+}
+.hero-end .btn-branding {
+  background: var(--branding-color);
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  padding: 18px 31px;
+  margin-right: 10px;
 }
 .hero-end .btn-branding:hover {
   background: var(--branding-color);
@@ -202,18 +196,13 @@ nav .logo {
 .hero-end .btn-branding-outline {
   border: 1px solid #FFFFFF;
   padding: 18px 51px;
-  font-family: var(--default-font-family);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
-  color: #FFFFFF;
-  border-radius: 10px;
-  transition: all 150ms ease-in-out;
 }
 .hero-end .btn-branding-outline:hover {
   border: 1px solid #FFFFFF;
   color: var(--branding-color);
 }
+
+
 
 footer {
   margin: 0 115px 53px;
@@ -221,10 +210,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
-
-  
-
-
 footer .logo {
   height: 100px;
   margin-left: 70px;
